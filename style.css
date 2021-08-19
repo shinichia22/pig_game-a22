@@ -171,3 +171,59 @@ i {
   font-weight: 300;
   color: #eb4d4d;
 }
+
+
+
+/* ------------------------------- */
+
+.btn{
+    position: absolute;
+    top: 45px;
+    left: 15%;
+    background: fffff;
+    font-size: 20px;
+    color: black;
+    padding: 10px 30px;
+    cursor: pointer;
+  }
+  #box{
+    width: 800px;
+    overflow: hidden;
+    height: 600px;
+    background: #d7e2e1;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    padding: 10px;
+    text-align: center;
+    display: none;
+  }
+  #box span{
+    color: hotpink;
+    font-size: 40px;
+    display: block;
+    margin: 20px 0;
+  }
+  #box h1{
+    color: brown
+  }
+  .close{
+    font-size: 18px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: rgb(238, 11, 49);
+    display: inline-block;
+    border-radius: 1px solid #000;
+  }
+
+  p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 25px;
+    color: #eb4d4d;
+    text-align: left;
+   }

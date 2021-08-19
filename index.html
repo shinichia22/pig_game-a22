@@ -36,7 +36,6 @@
           <div class="player-current-score" id="current-1">0</div>
         </div>
       </div>
-
       <button class="btn-new">
         <i class="ion-ios-plus-outline"></i>New game
       </button>
@@ -47,6 +46,24 @@
 
       <img src="dice-5.png" alt="Dice" class="dice" />
     </div>
+
+
+      <div id="box">
+        <h1>GAME RULES</h1>
+        <br>
+        <br>
+        <p>- The game has 2 players, playing in rounds</p><br>
+        <p>- In each turn, a player rolls a dice as many times as he whishes. Each result get added to his ROUND score</p><br>
+        <p>- BUT, if the player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn</p><br>
+        <p>- The player can choose to 'Hold', which means that his ROUND score gets added to his GLBAL score. After that, it's the next player's turn</p><br>
+        <p>- The first player to reach 100 points on GLOBAL score wins the game</p><br>
+        <br>
+        <br>
+
+        <a class="close" onclick="pop()">Close</a>
+      </div>
+
+      <a class="btn modalsample" onclick="pop()"><p>How to Play</p></a>
 
     <script src="app.js"></script>
   </body>

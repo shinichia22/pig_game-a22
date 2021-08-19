@@ -97,3 +97,18 @@ function init() {
   document.querySelector('.player-1-panel').classList.remove('active');
   document.querySelector('.player-0-panel').classList.add('active'); // if don'then we get two new active players
 }
+console.log('Hello Abhishek');
+
+console.log();
+
+
+var modal = null
+ function pop() {
+   if(modal === null) {
+     document.getElementById("box").style.display = "block";
+     modal = true
+   } else {
+     document.getElementById("box").style.display = "none";
+     modal = null
+   }
+}
